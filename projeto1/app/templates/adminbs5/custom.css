@@ -1,0 +1,43 @@
+
+:root {
+    --ad-menu-size: 300px; --bs-border-width: 1px;
+    --bs-border-color: #9E9E9E;
+    --bs-border-radius: 10px;
+    --bs-border-radius-sm: 10px;
+
+    --ad-menu-item-color: #18af75;
+
+    --ad-font-size: 1.10rem;
+    --ad-font-size-plus: 1.21rem; /* card header, post title. */
+    --ad-font-size-less: 0.935rem; /* botoes dbexpl, alguns labels, badges */ 
+    --ad-font-size-menu: 1.00 rem; /* menu */
+    --ad-font-size-super: 1.43 rem; /* system name, post title, page title. */ 
+    --ad-font-size-mini: 0.6rem; /* calendar headers */
+}
+
+.card {
+    --bs-card-border-color: #9E9E9E; /* card border color */
+}
+
+a.sidebar-link {
+    padding: 5px;
+    border-radius: 10px;
+}
+
+
+[data-bs-theme=dark] {
+    --bs-dark-bg-subtle: #000000 !important; /* background dark */
+}
+
+[data-bs-theme-light] {
+    --bs-dark-bg-subtle: #B2B2B2 !important; /* background light */
+}
+
+[data-bs-theme-dark] .card {
+    --bs-card-bg: #2E3F47 !important; /* fundo card dark */
+}
+
+[data-bs-theme=light] .card {
+    --bs-card-bg: #ffffff !important;
+    --bs-card-cap-bg: #ffffff !important; /* card header/footer */
+}
